@@ -1,0 +1,45 @@
+[0.763s] Invoking command in '/home/nathan/hector_point_ws/src/point_demo': PYTHONPATH=/home/nathan/hector_point_ws/build/point_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/point_demo build --build-base /home/nathan/hector_point_ws/build/point_demo/build install --record /home/nathan/hector_point_ws/build/point_demo/install.log --single-version-externally-managed install_data
+[1.007s] running egg_info
+[1.008s] creating ../../build/point_demo/point_demo.egg-info
+[1.027s] writing ../../build/point_demo/point_demo.egg-info/PKG-INFO
+[1.027s] writing dependency_links to ../../build/point_demo/point_demo.egg-info/dependency_links.txt
+[1.028s] writing entry points to ../../build/point_demo/point_demo.egg-info/entry_points.txt
+[1.028s] writing requirements to ../../build/point_demo/point_demo.egg-info/requires.txt
+[1.028s] writing top-level names to ../../build/point_demo/point_demo.egg-info/top_level.txt
+[1.028s] writing manifest file '../../build/point_demo/point_demo.egg-info/SOURCES.txt'
+[1.050s] reading manifest file '../../build/point_demo/point_demo.egg-info/SOURCES.txt'
+[1.050s] writing manifest file '../../build/point_demo/point_demo.egg-info/SOURCES.txt'
+[1.050s] running build
+[1.051s] running build_py
+[1.051s] creating /home/nathan/hector_point_ws/build/point_demo/build
+[1.051s] creating /home/nathan/hector_point_ws/build/point_demo/build/lib
+[1.051s] creating /home/nathan/hector_point_ws/build/point_demo/build/lib/point_demo
+[1.051s] copying point_demo/ik_cbf.py -> /home/nathan/hector_point_ws/build/point_demo/build/lib/point_demo
+[1.051s] copying point_demo/__init__.py -> /home/nathan/hector_point_ws/build/point_demo/build/lib/point_demo
+[1.051s] copying point_demo/rrt_star.py -> /home/nathan/hector_point_ws/build/point_demo/build/lib/point_demo
+[1.051s] running install
+[1.054s] running install_lib
+[1.064s] creating /home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages/point_demo
+[1.064s] copying /home/nathan/hector_point_ws/build/point_demo/build/lib/point_demo/ik_cbf.py -> /home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages/point_demo
+[1.064s] copying /home/nathan/hector_point_ws/build/point_demo/build/lib/point_demo/__init__.py -> /home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages/point_demo
+[1.064s] copying /home/nathan/hector_point_ws/build/point_demo/build/lib/point_demo/rrt_star.py -> /home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages/point_demo
+[1.065s] byte-compiling /home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages/point_demo/ik_cbf.py to ik_cbf.cpython-310.pyc
+[1.065s] byte-compiling /home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages/point_demo/__init__.py to __init__.cpython-310.pyc
+[1.065s] byte-compiling /home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages/point_demo/rrt_star.py to rrt_star.cpython-310.pyc
+[1.065s] running install_data
+[1.065s] creating /home/nathan/hector_point_ws/install/point_demo/share/ament_index
+[1.065s] creating /home/nathan/hector_point_ws/install/point_demo/share/ament_index/resource_index
+[1.065s] creating /home/nathan/hector_point_ws/install/point_demo/share/ament_index/resource_index/packages
+[1.065s] copying resource/point_demo -> /home/nathan/hector_point_ws/install/point_demo/share/ament_index/resource_index/packages
+[1.065s] copying package.xml -> /home/nathan/hector_point_ws/install/point_demo/share/point_demo
+[1.065s] creating /home/nathan/hector_point_ws/install/point_demo/share/point_demo/launch
+[1.065s] copying launch/move_point.launch.py -> /home/nathan/hector_point_ws/install/point_demo/share/point_demo/launch
+[1.065s] creating /home/nathan/hector_point_ws/install/point_demo/share/point_demo/urdf
+[1.065s] copying urdf/point.urdf -> /home/nathan/hector_point_ws/install/point_demo/share/point_demo/urdf
+[1.065s] running install_egg_info
+[1.076s] Copying ../../build/point_demo/point_demo.egg-info to /home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages/point_demo-0.0.0-py3.10.egg-info
+[1.077s] running install_scripts
+[1.128s] Installing ik_cbf script to /home/nathan/hector_point_ws/install/point_demo/lib/point_demo
+[1.128s] Installing rrt_star script to /home/nathan/hector_point_ws/install/point_demo/lib/point_demo
+[1.128s] writing list of installed files to '/home/nathan/hector_point_ws/build/point_demo/install.log'
+[1.153s] Invoked command in '/home/nathan/hector_point_ws/src/point_demo' returned '0': PYTHONPATH=/home/nathan/hector_point_ws/build/point_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/point_demo build --build-base /home/nathan/hector_point_ws/build/point_demo/build install --record /home/nathan/hector_point_ws/build/point_demo/install.log --single-version-externally-managed install_data

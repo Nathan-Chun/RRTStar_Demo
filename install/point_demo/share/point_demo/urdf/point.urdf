@@ -1,0 +1,29 @@
+<?xml version = "1.0"?>
+<robot name = "point">
+
+    <link name = "point">
+        <inertial>
+            <mass value = "1.0"/>
+            <inertia ixx="0.4" iyy="0.4" izz="0.4" ixy="0.0" ixz="0.0" iyz="0.0"/>
+        </inertial>
+        <visual>
+            <geometry><sphere radius = "0.1"/></geometry>
+        </visual>
+        <collision>
+            <geometry><sphere radius = "0.1"/></geometry>
+        </collision>
+        <!-- <gravity>false</gravity> -->
+    </link>
+
+    <gazebo reference = "point">
+        <gravity>false</gravity>
+    </gazebo>
+
+    <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so">
+      <ros>
+        <namespace>/gazebo</namespace>
+      </ros>
+
+      <update_rate>1.0</update_rate>
+    </plugin>
+</robot>

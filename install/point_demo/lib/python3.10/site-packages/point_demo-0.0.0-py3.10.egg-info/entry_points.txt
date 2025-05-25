@@ -1,0 +1,3 @@
+[console_scripts]
+ik_cbf = point_demo.ik_cbf:main
+rrt_star = point_demo.rrt_star:main

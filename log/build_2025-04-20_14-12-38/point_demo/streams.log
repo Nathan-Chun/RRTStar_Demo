@@ -1,0 +1,25 @@
+[0.681s] Invoking command in '/home/nathan/hector_point_ws/src/point_demo': PYTHONPATH=/home/nathan/hector_point_ws/build/point_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/point_demo build --build-base /home/nathan/hector_point_ws/build/point_demo/build install --record /home/nathan/hector_point_ws/build/point_demo/install.log --single-version-externally-managed install_data
+[0.927s] running egg_info
+[0.941s] writing ../../build/point_demo/point_demo.egg-info/PKG-INFO
+[0.941s] writing dependency_links to ../../build/point_demo/point_demo.egg-info/dependency_links.txt
+[0.942s] writing entry points to ../../build/point_demo/point_demo.egg-info/entry_points.txt
+[0.942s] writing requirements to ../../build/point_demo/point_demo.egg-info/requires.txt
+[0.942s] writing top-level names to ../../build/point_demo/point_demo.egg-info/top_level.txt
+[0.960s] reading manifest file '../../build/point_demo/point_demo.egg-info/SOURCES.txt'
+[0.960s] writing manifest file '../../build/point_demo/point_demo.egg-info/SOURCES.txt'
+[0.961s] running build
+[0.961s] running build_py
+[0.961s] copying point_demo/rrt_star.py -> /home/nathan/hector_point_ws/build/point_demo/build/lib/point_demo
+[0.961s] running install
+[0.964s] running install_lib
+[0.973s] copying /home/nathan/hector_point_ws/build/point_demo/build/lib/point_demo/rrt_star.py -> /home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages/point_demo
+[0.973s] byte-compiling /home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages/point_demo/rrt_star.py to rrt_star.cpython-310.pyc
+[0.974s] running install_data
+[0.974s] running install_egg_info
+[0.984s] removing '/home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages/point_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.984s] Copying ../../build/point_demo/point_demo.egg-info to /home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages/point_demo-0.0.0-py3.10.egg-info
+[0.984s] running install_scripts
+[1.029s] Installing ik_cbf script to /home/nathan/hector_point_ws/install/point_demo/lib/point_demo
+[1.030s] Installing rrt_star script to /home/nathan/hector_point_ws/install/point_demo/lib/point_demo
+[1.030s] writing list of installed files to '/home/nathan/hector_point_ws/build/point_demo/install.log'
+[1.054s] Invoked command in '/home/nathan/hector_point_ws/src/point_demo' returned '0': PYTHONPATH=/home/nathan/hector_point_ws/build/point_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/point_demo build --build-base /home/nathan/hector_point_ws/build/point_demo/build install --record /home/nathan/hector_point_ws/build/point_demo/install.log --single-version-externally-managed install_data

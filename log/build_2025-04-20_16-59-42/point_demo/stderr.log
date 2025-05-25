@@ -1,0 +1,5 @@
+  File "/home/nathan/hector_point_ws/install/point_demo/lib/python3.10/site-packages/point_demo/rrt_star.py", line 106
+    Sample a random point with goal biasing
+           ^
+SyntaxError: invalid syntax
+
